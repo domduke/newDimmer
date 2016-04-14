@@ -1,0 +1,10 @@
+D:\Downloads\Brightness (3)\bin\Debug\Brightness.pdb
+D:\Downloads\Brightness (3)\obj\Debug\Brightness.csprojResolveAssemblyReference.cache
+D:\Downloads\Brightness (3)\obj\Debug\Brightness.pdb
+D:\Downloads\Brightness (3)\bin\Debug\Brightness.exe
+D:\Downloads\Brightness (3)\obj\Debug\Brightness.exe
+C:\Users\Dom\Google Drive\Pics\Desktop\newDimmer\obj\Debug\Brightness.exe
+C:\Users\Dom\Google Drive\Pics\Desktop\newDimmer\obj\Debug\Brightness.pdb
+C:\Users\Dom\Google Drive\Pics\Desktop\newDimmer\bin\Debug\Brightness.exe
+C:\Users\Dom\Google Drive\Pics\Desktop\newDimmer\bin\Debug\Brightness.pdb
+C:\Users\Dom\Google Drive\Pics\Desktop\newDimmer\obj\Debug\Brightness.csprojResolveAssemblyReference.cache
