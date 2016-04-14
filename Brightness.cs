@@ -48,13 +48,25 @@ namespace Brightness
             {
                 for (int i = 0; i < 256; i++)
                 {
-                    int arrayVal = i * (brightness + 128);
+                    if (j == 0)
+                    {
+                        int arrayVal = i * (brightness + 128);
 
-                    if (arrayVal > 65535)
-                        arrayVal = 65535;
+                        if (arrayVal > 65535)
+                            arrayVal = 65535;
 
-                    *idx = (short)arrayVal;
-                    idx++;
+                        *idx = (short)arrayVal;
+                        idx++;
+                    }
+                    else {
+                        int arrayVal = i * (brightness + 20);
+
+                        if (arrayVal > 65535)
+                            arrayVal = 65535;
+
+                        *idx = (short)arrayVal;
+                        idx++;
+                    }
                 }
             }
 
@@ -71,7 +83,7 @@ namespace Brightness
         public static int Main(string[] args)
         {
 
-            Brightness.SetBrightness(4);
+            Brightness.SetBrightness(120);
             return 0;
         }
     }
